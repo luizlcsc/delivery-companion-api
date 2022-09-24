@@ -1,0 +1,16 @@
+O projeto se divide em 2 partes, administrativo e entregador
+
+
+*ADMINISTRATIVO*
+Consiste em um software web onde faz o envio para o aplicativo do entregador de qual entrega (pedido #número) e onde ele tem que entregar, além de uma fila
+de qual entrega deve fazer primeiro
+1- Tela de envio de pedido (número + endereço) e seleção de qual entregador enviará o pedido;
+2- Enviar número do pedido e endereço ao aplicativo do entregador (escolher qual entregador enviará);
+3- Gerenciamento da fila dos entregadores (incluindo volta pro restaurante).
+
+
+*Entregador*
+Consiste em um software de aplicativo onde recebe o item 2 do administrativo e consistirá em 3 telas, que são elas:
+1- Login (para saber qual entregadorid é o logado e receber sua respectiva fila);
+2- Fila de próximas entregas (incluindo volta ao restaurante);
+3- Mapa GPS com destino nas entregas (incluindo volta ao restaurante).
